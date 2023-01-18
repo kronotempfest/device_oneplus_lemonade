@@ -49,9 +49,7 @@ odm/etc/bt/second_rf.conf
 
 # Camera
 my_product/etc/camera/engineer_camera_config:system_ext/etc/camera/engineer_camera_config
-my_product/etc/camera/mtCalibrationCfg.xml:system_ext/etc/camera/mtCalibrationCfg.xml
 my_product/etc/camera/mtInputparam.xml:system_ext/etc/camera/mtInputparam.xml
-my_product/etc/camera/mwCalibrationCfg.xml:system_ext/etc/camera/mwCalibrationCfg.xml
 my_product/etc/camera/mwInputparam.xml:system_ext/etc/camera/mwInputparam.xml
 odm/etc/camera/config/camera_unit_config
 odm/etc/camera/config/oplus_camera_aps_config
@@ -70,6 +68,8 @@ odm/lib64/camera/com.qti.sensormodule.lemonade.sunny_imx766_ak7375c.bin
 odm/lib64/camera/com.qti.sensormodule.lemonade.truly_imx471.bin
 odm/lib64/camera/com.qti.tuned.semco_imx689.bin
 odm/lib64/camera/com.qti.tuned.shine_gc02m1b.bin
+system_ext/etc/camera/mtCalibrationCfg.xml|026d6fd8294c3357aee29827fdc0ccc8c326dfb9
+system_ext/etc/camera/mwCalibrationCfg.xml|abf0ff8c648140e702b38f4437e21c9a3fff3730
 
 # Sensors
 odm/etc/sensor/config/lahaina_aw9610x_0.json
